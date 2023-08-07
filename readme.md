@@ -1,10 +1,10 @@
-# 绿色安装windows版本mysql的批处理
+# Installation windows version mysql batch
 
-mysql5.7.21、mysql-5.7.23、mysql-8.0.12下测试通过
+The test passed under mysql5.7.21, mysql-5.7.23, mysql-8.0.12
 
-下载链接：https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-winx64.zip
+Download link: https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-winx64.zip
 
-将setup.bat放到相应路径下，例如：
+Put setup.bat in the corresponding path, for example:
 
 ```
 G:\GREENSOFT\MYSQL-5.7.21-WINX64
@@ -17,13 +17,13 @@ G:\GREENSOFT\MYSQL-5.7.21-WINX64
 └─clear.bat
 ```
 
-运行setup.bat
+run setup.bat
 
-1. 初始化data
-2. 生成my.ini、my.cnf
-3. 启动服务
-4. 重置root密码为root123
+1. Initialize data
+2. Generate my.ini, my.cnf
+3. Start the service
+4. Reset the root password to root123
 
-## 注意
+## Notice
 
-如果使用 **下载zip** 的方式需要自行将.bat转换为Windows(CR LF)风格的回车换行才能正确执行
+If you use **Download zip**, you need to convert the .bat to Windows (CR LF) style carriage return and line feed to execute correctly
